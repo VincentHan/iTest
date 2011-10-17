@@ -31,7 +31,6 @@ public class TestMain extends Activity {
     private ISmartusbResourceService mResourceService;
     private ResourceServiceConnection  mResourceServiceConn;
     private TelematicsAdapter mTelematicsAdapter;
-    /** Called when the activity is first created. */
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -127,5 +126,3 @@ public class TestMain extends Activity {
         return super.onKeyDown(keyCode, event);
     }
 }
-
-
